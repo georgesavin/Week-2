@@ -6,31 +6,77 @@ namespace week2
     {
         public static void Main(string[] args)
         {
-			//Console.WriteLine("Hello Mr. Cox!");
-			// string userValue;
-			//userValue = Console.ReadLine();
-			//Console.WriteLine("Hello Mr. Cox!" + userValue);
-			//Console.ReadLine();
+            int x, y, a, b;
 
-			Console.WriteLine("Would you prefer what is behind door number 1, 2, or 3");
-		    string userValue = Console.ReadLine();
+            // Asignment operator
+            x = 3;
+            y = 2;
+            a = 1;
+            b = 0;
 
-            string message = "";
+            //There are many mathematical operations ....
 
-            if (userValue == "1")
-                message = ("You won a new wife!!!");
-            else if (userValue == "2")
-				message = ("You won a new child!!!");
-			else if (userValue == "3")
-			    message = ("You loose everything that you have!!!");
-            else
-                message = ("Sorry that you are dumb and can't pick a number!");
-			   
-			Console.WriteLine(message);
-			Console.ReadLine();
+            //addition
+            x = 3 + 4;
+
+            //subtraction 
+            x = 4 - 3;
+
+            //multiplication
+            x = 10 * 5;
+
+            //division
+            x = 10 / 5;
+
+            // There are many operators used to evaluate values....
+
+            //equality
+            if (x == y)
+            {
+            }
+
+			//greater than
+			if (x > y)
+			{
+			}
+
+			//less than
+			if (x < y)
+			{
+			}
+
+			//greater than or equal to
+			//greater than
+			if (x >= y)
+			{
+			}
+
+			//less than or equal to
+			//greater than
+			if (x <= y)
+			{
+			}
+
+			// There are two "conditional" operators as well that can be used to expand/ emhance an evaluation
+			// ... and they can be combined together multiple times.
+
+			//conditional AND operator
+            if ((x > y) && (a > b))
+			{
+			}
+
+			//conditional OR operator
+			if ((x > y) || (a > b))
+			{
+			}
+
+            // Also here is the inline conditional operator we learned about in the previous lesson
+            string message = (x == 1) ? "Car" : "Boat";
+
+            // Member acces and method invocation
+            Console.WriteLine("Hi");
 		}
     }
 } 
-//this code gives you three options and lets the user pick them and for each
-// of the three numbers the user can guess they win a prize. 
-// This is important bc it allows for user input.
+//this code shows you all the diffrent ways to use math in your code.
+// Its important bc it shows basic things that we will use a lot this year
